@@ -10,6 +10,8 @@ vcpkg integrate install</br>
 2. Скачать и установить CMake</br>
 3. Скачать boost</br>
 vcpkg install boost:x64-windows</br>
+4. Клонировать репозиторий</br>
+git clone https://github.com/nKadykov/cmake_project.git
 4. Создать папку с проектом</br>
 mkdir build</br>
 cd build</br>
