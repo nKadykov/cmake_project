@@ -10,17 +10,17 @@ vcpkg integrate install
 
 2. Скачать и установить CMake
 
-3. Скачать boost</br>
+3. Скачать boost:</br>
 vcpkg install boost:x64-windows
 
-4. Клонировать репозиторий</br>
+4. Клонировать репозиторий:</br>
 git clone https://github.com/nKadykov/cmake_project.git
 
-5. Создать папку с проектом</br>
+5. Создать папку с проектом:</br>
 mkdir build</br>
 cd build
 
-6. Собрать проект</br>
+6. Собрать проект:</br>
 cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake</br>
 Заменить C:/path/to/vcpkg на путь к vcpkg</br>
 cmake --build
