@@ -22,5 +22,5 @@ cd build
 
 6. Собрать проект</br>
 cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake</br>
-Заменить C:/path/to/vcpkg на путь к vcpkg
+Заменить C:/path/to/vcpkg на путь к vcpkg</br>
 cmake --build
